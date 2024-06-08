@@ -8,7 +8,7 @@ const app= express();
 
 //!BASE DE DATOS
 dbConnection();
-
+ 
 app.use(cors());
 
 //* Directorio publico
